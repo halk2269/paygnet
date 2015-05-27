@@ -1,0 +1,191 @@
+body {
+padding: 0;
+margin: 0;
+background: #F8F8F8;
+color: #002531;
+}
+
+body, td {
+font-family: Verdana, Tahoma, Arial, Serif; 
+font-size: 10pt;
+}
+
+h1, h2 { 
+margin: 0;
+padding: 0;
+}
+
+h1 {
+font-family: Verdana, Tahoma, Arial, Serif; 
+font-size: 15pt;
+font-weight: normal;
+}
+
+h2 {
+
+}
+
+h4 {
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+a {
+color: #008;
+}
+
+body {overflow: auto}
+img {border: 0}
+form {margin: 0; padding: 0}
+ul, ol, li {padding: 0; margin: 0}
+li {margin-left: 20pt}
+ul ul {padding-top: 2pt}
+ol li {list-style-type: decimal}
+ul li {list-style-type: square}
+p {text-align: justify}
+label {vertical-align: middle}
+.nobr {white-space: nowrap}
+.red {color: red}
+.orange {color: #FFA500}
+.green {color: #008000}
+.blue {color: blue}
+.star {color: red}
+.bold {font-weight: bold}
+.leftalign, .left {text-align: left}
+.rightalign, .right {text-align: right}
+.centeralign, .center {text-align: center}
+.topvalign, .top {vertical-align: top}
+.middlevalign, .middle {vertical-align: middle}
+.bottomvalign, .bottom {vertical-align: bottom}
+
+.hide {
+position: absolute;
+visibility: hidden;
+width: 1px;
+height: 1px;
+}
+
+.divForm { /* Вся форма */
+padding: 8pt 16pt;
+}
+
+.divForm .divFormStar { /* "* - обязательные поля" */
+margin: 10pt 0;
+}
+
+.divForm .divFormButton { /* Submit button */
+text-align: center;
+margin-top: 20pt;
+margin-bottom: 20pt;
+}
+
+.divForm .divFormButton input {
+font-size: 13pt;
+font-weight: normal;
+}
+
+.divListErrors { /* Error list */
+margin: 10pt 0;
+}
+
+.divListErrorsHead {
+font-weight: bold;
+padding: 0;
+margin: 0;
+margin-bottom: 10pt;
+}
+
+.divListErrors .divError {
+color: #FF0000;
+margin: 3pt 0;
+padding-left: 10pt;
+}
+
+.divListErrors .desc {
+font-size: 90%;
+color: #333333;
+}
+
+.formField { /* Form element */
+margin-bottom: 6pt;
+}
+
+.formField select, .formField input, .formField textarea { /* Form elements */
+font-family: Verdana, Arial, Sans-Serif;
+font-size: 10pt;
+margin-top: 1pt;
+}
+
+.formField textarea {
+width: 98%;
+}
+
+.formField span.formFieldString input {
+width: 98%;
+}
+
+.formField label {
+margin-left: 4pt;
+}
+
+.formField  textarea.mono {
+font-size: 11pt;
+font-family: "Courier New", Courier, monospace;
+}
+
+
+/* linked documents */
+
+div.linkedDocs {
+	padding-bottom:10px;
+}
+
+a.aModeChanger {
+	 margin-right:10px; 
+	 border-bottom:1px dashed black;
+}
+
+div.linkedDocs a {
+	text-decoration:none;
+	color:black;
+	vertical-align:top;
+}
+
+div.linkedDocs label {
+	vertical-align:top;
+	margin:0px 5px;
+}
+
+div.linkedDocs a.about {
+	cursor:help;
+}
+
+div.linkedDocs input.change {
+	margin-top:10px;
+	display:none;
+}
+
+
+div.divContainer {
+	overflow:auto;
+	height:200px;
+	border:1px solid black; 
+	padding: 10px;
+	margin-top:5px;
+}
+
+div.divSelected a {
+	text-decoration:underline;
+}
+
+div.divSelected {
+	margin-top:5px;
+}
+
+div.divButtons input {
+	margin: 3px 10px 0px 0px;
+}
+
+div.refs {
+	margin: 20px 0 0 0;
+}

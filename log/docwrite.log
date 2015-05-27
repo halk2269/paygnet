@@ -1,0 +1,52 @@
+2014-08-22, 22:39:14 INSERT INTO dt_test SET ref = 13, addtime = 2014-08-22, 22:39:14, chtime = 2014-08-22, 22:39:14, `enabled` = ?, `tstring1` = ?, `ttable` = ?, `tstring2` = ?, `ttext1` = ?, `ttext2` = ?, `ttext3` = ?, `tdate` = ?, `tdatetime` = ?, `tint` = ?, `tfloat` = ?, `tpassword` = ?, `tbool` = ?, `tlink` = ?, `tselect` = ?, `tstrlist` = ?  :: 1, Common title, <table>
+<tr><th>Test</th><th>Test</th><th>Test</th></tr>
+<tr><td>new1</td><td>new2</td><td>new3</td></tr>
+</table>
+, , New, Value, Test, 1970-01-01, 1970-01-01 00:00:00, 125, 12.5, 202cb962ac59075b964b07152d234b70, 0, 0, 66, 32
+2014-08-22, 22:40:37 INSERT INTO dt_test SET ref = 13, addtime = 2014-08-22, 22:40:37, chtime = 2014-08-22, 22:40:37, `enabled` = ?, `tstring1` = ?, `ttable` = ?, `tstring2` = ?, `ttext1` = ?, `ttext2` = ?, `ttext3` = ?, `tdate` = ?, `tdatetime` = ?, `tint` = ?, `tfloat` = ?, `tpassword` = ?, `tbool` = ?, `tlink` = ?, `tselect` = ?, `tstrlist` = ?  :: 1, Common title, <table>
+<tr><th>Test</th><th>Test</th><th>Test</th></tr>
+<tr><td>new1</td><td>new2</td><td>new3</td></tr>
+</table>
+, , New, Value, Test, 1970-01-01, 1970-01-01 00:00:00, 125, 12.5, 202cb962ac59075b964b07152d234b70, 0, 0, 67, 33
+2014-08-22, 22:46:47 INSERT INTO dt_test SET ref = 13, addtime = 2014-08-22, 22:46:47, chtime = 2014-08-22, 22:46:47, `enabled` = ?, `tstring1` = ?, `ttable` = ?, `tstring2` = ?, `ttext1` = ?, `ttext2` = ?, `ttext3` = ?, `tdate` = ?, `tdatetime` = ?, `tint` = ?, `tfloat` = ?, `tpassword` = ?, `tbool` = ?, `tlink` = ?, `tselect` = ?, `tstrlist` = ?  :: 1, Common title, <table>
+<tr><th>Test</th><th>Test</th><th>Test</th></tr>
+<tr><td>new1</td><td>new2</td><td>new3</td></tr>
+</table>
+, , New, Value, Test, 1970-01-01, 1970-01-01 00:00:00, 125, 12.5, d81f9c1be2e08964bf9f24b15f0e4900, 0, 0, 68, 34
+2014-08-22, 23:04:19 INSERT INTO dt_test SET ref = 13, addtime = 2014-08-22, 23:04:19, chtime = 2014-08-22, 23:04:19, `enabled` = ?, `tstring1` = ?, `ttable` = ?, `tstring2` = ?, `ttext1` = ?, `ttext2` = ?, `ttext3` = ?, `tdate` = ?, `tdatetime` = ?, `tint` = ?, `tfloat` = ?, `tpassword` = ?, `tbool` = ?, `tlink` = ?, `tselect` = ?, `tstrlist` = ?  :: 1, Common title, <table>
+<tr><th>Test</th><th>Test</th><th>Test</th></tr>
+<tr><td>new1</td><td>new2</td><td>new3</td></tr>
+</table>
+, , Test, Test1, Test2, 1970-01-01, 1970-01-01 00:00:00, 125, 12.5, 250cf8b51c773f3f8dc8b4be867a9a02, 0, 9, 69, 35
+2014-08-22, 23:05:47 INSERT INTO dt_test SET ref = 13, addtime = 2014-08-22, 23:05:47, chtime = 2014-08-22, 23:05:47, `enabled` = ?, `tstring1` = ?, `ttable` = ?, `tstring2` = ?, `ttext1` = ?, `ttext2` = ?, `ttext3` = ?, `tdate` = ?, `tdatetime` = ?, `tint` = ?, `tfloat` = ?, `tpassword` = ?, `tbool` = ?, `tlink` = ?, `tselect` = ?, `tstrlist` = ?  :: 1, Common title, <table>
+<tr><th>Test</th><th>Test</th><th>Test</th></tr>
+<tr><td>new1</td><td>new2</td><td>new3</td></tr>
+</table>
+, , Test, Test 1, Test 2, 1970-01-01, 1970-01-01 00:00:00, 125, 12.5, 289dff07669d7a23de0ef88d2f7129e7, 0, 9, 70, 36
+2014-08-22, 23:07:57 INSERT INTO dt_test SET ref = 13, addtime = 2014-08-22, 23:07:57, chtime = 2014-08-22, 23:07:57, `enabled` = ?, `tstring1` = ?, `ttable` = ?, `tstring2` = ?, `ttext1` = ?, `ttext2` = ?, `ttext3` = ?, `tdate` = ?, `tdatetime` = ?, `tint` = ?, `tfloat` = ?, `tpassword` = ?, `tbool` = ?, `tlink` = ?, `tselect` = ?, `tstrlist` = ?  :: 1, Common title, <table>
+<tr><th>Test</th><th>Test</th><th>Test</th></tr>
+<tr><td>new1</td><td>new2</td><td>new3</td></tr>
+</table>
+, , Test1, Test2, Test, 1970-01-01, 1970-01-01 00:00:00, 125, 12.5, 289dff07669d7a23de0ef88d2f7129e7, 0, 0, 71, 37
+2014-08-22, 23:12:09 INSERT INTO dt_test SET ref = 13, addtime = 2014-08-22, 23:12:09, chtime = 2014-08-22, 23:12:09, `enabled` = ?, `tstring1` = ?, `ttable` = ?, `tstring2` = ?, `ttext1` = ?, `ttext2` = ?, `ttext3` = ?, `tdate` = ?, `tdatetime` = ?, `tint` = ?, `tfloat` = ?, `tpassword` = ?, `tbool` = ?, `tlink` = ?, `tselect` = ?, `tstrlist` = ?  :: 1, Common title, <table>
+<tr><th>Test</th><th>Test</th><th>Test</th></tr>
+<tr><td>new1</td><td>new2</td><td>new3</td></tr>
+</table>
+, , Test, Test 1, Test 2, 1970-01-01, 1970-01-01 00:00:00, 125, 12.5, d81f9c1be2e08964bf9f24b15f0e4900, 0, 0, 72, 38
+2014-08-22, 23:13:20 INSERT INTO dt_test SET ref = 13, addtime = 2014-08-22, 23:13:20, chtime = 2014-08-22, 23:13:20, `enabled` = ?, `tstring1` = ?, `ttable` = ?, `tstring2` = ?, `ttext1` = ?, `ttext2` = ?, `ttext3` = ?, `tdate` = ?, `tdatetime` = ?, `tint` = ?, `tfloat` = ?, `tpassword` = ?, `tbool` = ?, `tlink` = ?, `tselect` = ?, `tstrlist` = ?  :: 1, Common title, <table>
+<tr><th>Test</th><th>Test</th><th>Test</th></tr>
+<tr><td>new1</td><td>new2</td><td>new3</td></tr>
+</table>
+, , Test, Test 1, Test 2, 1970-01-01, 1970-01-01 00:00:00, 125, 12.5, 250cf8b51c773f3f8dc8b4be867a9a02, 0, 0, 73, 39
+2014-08-22, 23:52:07 INSERT INTO dt_test SET ref = 13, addtime = 2014-08-22, 23:52:07, chtime = 2014-08-22, 23:52:07, `enabled` = ?, `tstring1` = ?, `ttable` = ?, `tstring2` = ?, `ttext1` = ?, `ttext2` = ?, `ttext3` = ?, `tdate` = ?, `tdatetime` = ?, `tint` = ?, `tfloat` = ?, `tpassword` = ?, `tbool` = ?, `tlink` = ?, `tselect` = ?, `tstrlist` = ?  :: 1, Common title, <table>
+<tr><th>Test</th><th>Test</th><th>Test</th></tr>
+<tr><td>new1</td><td>new2</td><td>new3</td></tr>
+</table>
+, , Test 1, Test 2, Test 3, 1970-01-01, 1970-01-01 00:00:00, 125, 12.5, 202cb962ac59075b964b07152d234b70, 0, 0, 77, 43
+2014-08-24, 14:41:59 UPDATE dt_article SET ref = 11, chtime = 2014-08-24, 14:41:59, `enabled` = ?, `title` = ?, `pubdate` = ?, `preview` = ?, `text` = ? WHERE id = 10 :: 1, Regional competiton, 2014-06-18, Preview, Full text content
+2014-08-24, 17:30:26 INSERT INTO dt_team SET ref = 32, addtime = 2014-08-24, 17:30:26, chtime = 2014-08-24, 17:30:26, `enabled` = ?, `title` = ?, `description` = ?, `state` = ?, `city` = ?  :: 1, San Jose Sharks, Regional team, SJ, Los Altos
+2014-08-24, 18:06:16 UPDATE dt_user SET ref = 28, chtime = 2014-08-24, 18:06:16, `enabled` = ?, `login` = ?, `pass` = ?, `email` = ?, `role_id` = ? WHERE id = 3 :: 1, global, ebf0254b722240fbcc1267eaa15b3731, eplayorg@gmail.com, 3
+2014-08-24, 18:32:54 UPDATE dt_user SET ref = 28, chtime = 2014-08-24, 18:32:54, `enabled` = ?, `login` = ?, `email` = ?, `role_id` = ? WHERE id = 4 :: 1, captan, eplayorg@yandex.ru, 4
+2014-08-24, 18:32:54 UPDATE dt_user_team_member SET ref = 28, chtime = 2014-08-24, 18:32:54, `enabled` = ?, `name` = ?, `surname` = ?, `school` = ?, `state` = ?, `city` = ?, `link_team` = ? WHERE id = 4 :: 1, Martin, Fowler, San Jose School, SJ, Los Altos, 1
+2014-08-24, 18:35:00 UPDATE dt_user SET ref = 28, chtime = 2014-08-24, 18:35:00, `enabled` = ?, `login` = ?, `email` = ?, `role_id` = ? WHERE id = 4 :: 1, captan, eplayorg@yandex.ru, 4
+2014-08-24, 18:35:00 UPDATE dt_user_team_member SET ref = 28, chtime = 2014-08-24, 18:35:00, `enabled` = ?, `name` = ?, `surname` = ?, `school` = ?, `state` = ?, `city` = ?, `link_team` = ? WHERE id = 4 :: 1, Martin, Fowler, San Jose School, SJ, Los Altos, 1

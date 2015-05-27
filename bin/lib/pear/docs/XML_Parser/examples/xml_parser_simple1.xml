@@ -1,0 +1,9 @@
+<!-- $Id: xml_parser_simple1.xml,v 1.1 2008/10/16 10:58:07 Admin Exp $ -->
+<foo>
+    <bar>content of bar</bar>
+    <empty/>
+    <argh foo="bar">
+        test
+        <tomato>pizza</tomato>
+    </argh>
+</foo>

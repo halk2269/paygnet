@@ -1,0 +1,288 @@
+AWSTATS DATA FILE 6.8 (build 1.910)
+# If you remove this file, all statistics for date 201409 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 1915                
+POS_TIME 2593                
+POS_VISITOR 5973                
+POS_DAY 6296                
+POS_DOMAIN 3153                
+POS_LOGIN 3440                
+POS_ROBOT 3595                
+POS_WORMS 3727                
+POS_EMAILSENDER 3858                
+POS_EMAILRECEIVER 4001                
+POS_SESSION 6568                
+POS_SIDER 6774                
+POS_FILETYPES 4136                
+POS_OS 4316                
+POS_BROWSER 4375                
+POS_SCREENSIZE 4480                
+POS_UNKNOWNREFERER 4554                
+POS_UNKNOWNREFERERBROWSER 4641                
+POS_ORIGIN 4723                
+POS_SEREFERRALS 4859                
+POS_PAGEREFS 5003                
+POS_SEARCHWORDS 5151                
+POS_KEYWORDS 5303                
+POS_MISC 2257                
+POS_ERRORS 5362                
+POS_CLUSTER 3296                
+POS_SIDER_404 5446                
+POS_PLUGIN_geoip_city_maxmind 5533                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20141020131311 26 6184 10143963098673
+FirstTime 20140901022446
+LastTime 20140913034628
+LastUpdate 20141021045339 26 25 0 0 0
+TotalVisits 27                  
+TotalUnique 6                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 6                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 33 23434 0 0 0
+1 1 16 8062 0 0 0
+2 7 23 476959 0 0 0
+3 3 22 629754 0 0 0
+4 0 0 0 0 0 0
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 13 88 1001663 0 0 0
+9 4 5 29726 0 0 0
+10 1 20 612652 0 0 0
+11 75 176 2849909 10 10 0
+12 17 79 2167151 0 0 0
+13 26 99 1343442 1 1 0
+14 24 61 1041210 0 0 0
+15 3 33 24489 0 0 0
+16 0 0 0 0 0 0
+17 0 0 0 0 0 0
+18 1 18 8365 0 0 0
+19 0 0 0 0 0 0
+20 0 0 0 0 0 0
+21 0 0 0 0 0 0
+22 0 0 0 0 0 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 4
+unknown 111 217 2608254
+ru 33 141 2003802
+us 29 256 3739550
+lv 5 59 1865210
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+css 48 250421 0 0
+png 19 17616 0 0
+html 174 1926957 0 0
+js 106 6557445 0 0
+jpg 233 1432639 0 0
+Unknown 4 15193 0 0
+gif 89 16545 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 2
+macosx 22
+winnt 651
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 4
+firefox32.0 25
+safari 349
+firefox6.0 2
+firefox31.0 297
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 37 37
+From1 0 0
+From2 0 0
+From3 0 0
+From4 141 636
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+302 11 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 0
+END_SIDER_404
+
+# Plugin key - Pages - Hits - Bandwidth - Last access
+BEGIN_PLUGIN_geoip_city_maxmind 4
+unknown 0 392 0 0
+us_san%20jose_ca 0 254 0 0
+ru_murmansk_49 0 25 0 0
+us_mountain%20view_ca 0 2 0 0
+END_PLUGIN_geoip_city_maxmind
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 6
+37.145.2.169 111 217 2608254 20140913034628
+24.23.165.135 27 254 3725172 20140912134750
+87.249.9.46 24 116 1508348 20140911094224
+109.68.173.20 9 25 495454 20140907124009
+81.198.90.13 5 59 1865210 20140911124726
+66.249.81.102 2 2 14378 20140905112544
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 9
+20140901 35 85 1550639 5
+20140905 47 114 1776229 4
+20140906 1 1 7310 1
+20140907 10 34 902286 2
+20140909 43 117 1292573 2
+20140910 5 51 469630 1
+20140911 32 227 2967378 9
+20140912 2 22 621017 2
+20140913 3 22 629754 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 2
+5mn-15mn 2
+30s-2mn 4
+15mn-30mn 4
+2mn-5mn 1
+0s-30s 13
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 28
+/ 44 395311 25 12
+/admin/ 21 676718 0 0
+/your-prizes/ 13 108726 1 4
+/stanford/ 11 93548 0 0
+/about/ 8 57327 1 3
+/classes/ 7 58793 0 0
+/moems-awards/ 6 47218 0 0
+/events/ 6 48732 0 0
+/teams/ 6 44197 0 0
+/how/ 6 42899 0 1
+/awards/ 4 29805 0 1
+/our-awards/ 3 26961 0 0
+/rewards/ 5 28796 0 1
+/team-member-reg/ 3 31119 0 1
+/princeton/ 1 8629 0 0
+/admin 4 15193 0 0
+/official-reg/ 1 9848 0 0
+/captcha/ 5 12621 0 1
+/school/ 1 8092 0 0
+/our-teams/ 6 49439 0 2
+/map/ 2 16065 0 0
+/news/ 2 15438 0 0
+/contacts/ 5 45139 0 0
+/harvard/ 2 17520 0 0
+/teams/r32_id/1/ 1 7316 0 0
+/your-awards/ 1 11157 0 0
+/moems/ 3 26103 0 0
+/director-reg/ 1 9440 0 1
+END_SIDER

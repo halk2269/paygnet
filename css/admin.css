@@ -1,0 +1,424 @@
+body, h1, h2, h3, img, div { margin: 0; padding:0; }
+
+body, td { font-family: Tahoma, "Geneva CY", Serif; color: #333333;}
+
+form { margin: 0; }
+p	{ margin: 0 0 1em 0; }
+
+table, td, tr {
+padding: 0px;
+margin: 0px;
+}
+
+h1 { font-size: 150%; font-weight: normal; margin: 0.1em 0 0.1em 0;} 
+h2 { font-size: 110%; font-weight: bold; margin: 10px 0 10px 0; }
+h3 { font-size: 100%; font-weight: bold; margin:0 0 0.5em 0; }
+h4 { font-size: 100%; font-weight: normal; margin: 0; }
+
+
+body {text-align: center;}
+
+img {
+border: 0px;
+margin: 0px;
+padding: 0px;
+vertical-align: middle;
+}
+
+/* Подсказка */
+
+div.help {
+margin: 8px auto;
+padding: 0px 8px;
+}
+
+div.help div {
+font-size: 12px;
+background: #F5F6EA;
+border: 1px solid #DCE0D4;
+margin: 0px auto;
+padding: 6px 8px;
+line-height: 150%;
+}
+
+div.help span {
+padding-right: 12px;
+font-weight: bold;
+color: #555;
+text-decoration: underline;
+}
+
+/* Ошибка */
+
+div.err {
+margin: 8px auto;
+padding: 0px 8px;
+}
+
+div.err div {
+font-size: 12px;
+background: #F5F6EA;
+border: 1px solid #DCE0D4;
+margin: 0px auto;
+padding: 6px 8px;
+line-height: 150%;
+}
+
+div.err span {
+padding-right: 12px;
+font-weight: bold;
+color: red;
+text-decoration: underline;
+}
+
+div.err span.desc {
+padding-right: 11px;
+font-weight: normal;
+font-size: 11px;
+color: #555;
+text-decoration: none;
+}
+
+/* Инфа */
+
+div.inf {
+margin: 8px auto;
+padding: 0px 8px;
+}
+
+div.inf div {
+font-size: 12px;
+background: #F5F6EA;
+border: 1px solid #DCE0D4;
+margin: 0px auto;
+padding: 6px 8px;
+line-height: 150%;
+}
+
+div.inf span {
+padding-right: 12px;
+font-weight: bold;
+color: green;
+text-decoration: underline;
+}
+
+div.inf span.no {
+padding: 0;
+font-weight: normal;
+color: inherit;
+text-decoration: none;
+}
+
+div.inf span.desc {
+padding-right: 11px;
+font-weight: normal;
+font-size: 11px;
+color: #555;
+text-decoration: none;
+}
+
+/* Общее для inf, err, help */
+
+div.p100 {
+padding: 0;
+}
+
+/*  */
+
+#divFormCont {
+margin: 1em auto;
+background: #FFFFFF;
+width: 27em;
+border: 1px solid #BBBBBB;
+}
+
+#tableAuth {
+margin: 1em auto;
+background: #FFFFFF;
+}
+
+#tableAuth td {
+padding: 0 0.25em;
+vertical-align: middle;
+}
+
+#tableAuth img {
+margin: 0px;
+padding: 0px;
+margin-bottom: 2px; /**/
+}
+
+.submit { 
+font-size: 140%; 
+font-weight: normal; 
+margin: 0.2em 0 0.2em 0; 
+width: 4em;  
+height: 1.4em;
+}
+
+.huge	{ 
+font-size: 140%; 
+font-weight: bold; 
+border: 1px solid #AAAAAA; 
+padding: 0px; 
+margin: 0px;
+vertical-align: middle;
+}
+
+#tableAuth td.autherr {
+font-size: 70%;
+padding-bottom: 10px;
+}
+
+.right { text-align: right; }
+.center { text-align: center; }
+.left { text-align: left; }
+
+#divFormCont {
+font-size: 12pt;
+}
+
+/* Section tree */
+
+#general {
+width: 100%;
+height: 100%;
+background: none;
+background-color: #FEFEFE;
+}
+
+#general td {
+background: none;
+font-size: 11px; 
+font-family: Tahoma, Arial, Sans-serif;
+vertical-align: top;
+}
+
+tr#upmenu td, tr#downmenu td {
+padding: 2px 15px 5px;
+height: 26px; 
+vertical-align: middle;
+font-size: 12px;
+background: #F5F6EA;
+color: #9D160A;
+font-weight: bold;  
+}
+
+tr#downmenu td {
+font-weight: normal;
+text-align: center;
+}
+
+tr#upmenu td {
+border-bottom: 1px solid #DCE0D4;
+}
+
+tr#upmenu td a, tr#downmenu td a {
+color: #9D160A;
+font-weight: normal;
+font-size: 12px;
+}
+
+tr#upmenu .submenu {
+font-weight: normal;
+text-align: right;
+}
+
+tr#upmenu .submenu a {
+text-decoration: none;
+}
+
+tr#upmenu .submenu a:hover {
+text-decoration: underline;
+}
+
+
+tr#downmenu td {
+border-top: 1px solid #DCE0D4;
+}
+
+table#main {
+width: 100%;
+height: 100%;
+vertical-align: top;
+}
+
+td#menu {
+margin: 0px;
+padding: 25px 10px;
+}
+
+
+/* Left Menu */
+
+
+td#menu ul {
+list-style: none;
+padding: 0px;
+margin: 0px;
+padding-left: 20px;
+}
+
+td#menu a {
+text-decoration: none;
+color: #333333;
+font-weight: normal;
+}
+
+td#menu a:hover {
+text-decoration: underline;
+}
+
+td#menu img {
+vertical-align: middle;
+margin-right: 5px;
+}
+
+td#menu .menuActive {
+font-weight: bold;
+}
+
+td#menu .menuDisabled {
+font-style: italic; 
+color: #999999;
+}
+
+td#menu .hidden { 
+cursor: help; 
+}
+
+/* right menu */
+td#rightmenu {
+width: 340px;
+vertical-align: top;
+background-color: #F5F6EA;
+border-left: 1px solid #DCE0D4;
+}
+
+#rightmenu a {
+color: #AB1404;
+text-decoration: none;
+}
+
+#rightmenu a:hover {
+text-decoration: underline;
+}
+
+.properties {
+width: 100%;
+margin: 4px 0px;
+}
+
+.properties td {
+padding: 3px 15px;
+}
+
+.properties td.separator {
+width: 100%;
+height: 1px;
+padding-left: 0px;
+padding-right: 0px;
+font-size: 1px;
+line-height: 1px;
+}
+
+.properties img {
+margin-right: 5px;
+}
+
+.divSep {
+width: 100%;
+height: 1px;
+border-bottom: 1px solid #DCE0D4;
+}
+
+a.aHelp {
+cursor: help;
+}
+
+#rightmenu a.aHelp:hover {
+text-decoration: none;
+}
+
+/* information */
+.divInfo, .divError {
+margin: 20px 10px 0px;
+padding: 5px 5px;
+line-height: 180%;
+font-weight: bold;
+}
+
+.divInfo {
+color: #008800;	
+}
+
+.divError {
+color: #FF0000;
+}
+
+.divMoveInfo {
+font-weight: normal;
+padding: 0px;
+margin: 0px 25px 20px 25px ;
+}
+
+td#menu .divMoveInfo a {
+color: #AB1404;
+}
+
+#rightmenu a.normal, #rightmenu a.normal:hover {
+color: #333;
+text-decoration: underline;
+}
+
+a.toMainPage {
+font-size: 80%;
+color: #333333;
+}
+
+
+/* ������ ����-���� */
+table#metaTags { margin-top: 5px; margin-bottom: 5px; }
+#metaTags th { font-size: 70%; text-align: left; vertical-align: top; }
+#metaTags th, #metaTags td, #metaTags img { padding: 0px; margin: 0px; }
+#metaTags td { padding-bottom: 5px; }
+#metaTags img { margin: 0px 5px 0px 4px; }
+#metaTags a { color: #333333;  text-decoration: underline; }
+
+/* list editing */
+
+.listOfLists {
+padding-left: 10px;
+padding-top: 6px;
+line-height: 160%;
+}
+
+#menu.listItems {
+padding: 20px;
+padding-top: 1px;
+}
+
+.listItems .nameInput {
+margin: 2px 4px 1px 0px;
+width: 150px;
+}
+
+.listItems .titleInput {
+margin: 2px 0px 1px;
+width: 150px;
+}
+
+.listItems table.listHead td {
+width: 150px;
+padding: 3px;
+}
+
+.listItems .listAddItems {
+margin: 6px 0px 7px;
+padding-left: 1px;
+}
+
+.listItems .submitDiv {
+margin-top: 10px;
+}
+

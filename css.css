@@ -1,0 +1,720 @@
+/* General site styles */
+/*
+body {
+padding: 0px;
+margin: 0px;
+background: #EEE;
+}
+
+body, td {
+font: 10pt Tahoma, Arial, serif;
+color: #285B86;
+}
+
+div.m {
+margin: 10px;
+padding: 10px;
+background: #FFF; 
+}
+
+div.faq {
+margin: 10px;
+padding: 1px 10px 10px 10px;
+background: #FFF;
+}
+
+a {
+color: #285B86;
+}
+*/
+/* Special site styles */
+/*
+.color0 {
+background: #FFF;
+}
+
+.color1 {
+background: #EEE;
+}
+
+h1, h2, h3, h4, h5, h6 {
+padding: 0px;
+margin: 0px;
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+*/
+/* Standard styles (please don't edit it!) */
+/*
+body {
+overflow: auto
+}
+
+img {
+border: 0
+}
+
+form {
+margin: 0; padding: 0
+}
+
+ul, ol, li {
+padding: 0; margin: 0
+}
+
+li {
+margin-left: 25px
+}
+
+ul ul {
+padding-top: 3px
+}
+
+ol li {
+list-style-type: decimal
+}
+
+ul li {
+list-style-type: square
+}
+
+p {text-align: justify}
+
+input, label {vertical-align: middle}
+
+.inline {display: inline}
+
+.red, .red a {color: red}
+
+.darkred, .darkred a {color: #800000}
+
+.green, .green a {color: #008000}
+
+.blue, .blue a {color: blue}
+
+.black, .black a {color: black}
+
+.small, .small a {font-size: 10px}
+
+.bold, .bold a {font-weight: bold}
+
+.star {color: red}
+
+.error {color: red}
+
+.leftalign, .left {text-align: left}
+
+.rightalign, .right {text-align: right}
+
+.centeralign, .center {text-align: center}
+
+.topvalign, .top {vertical-align: top}
+
+.middlevalign, .middle {vertical-align: middle}
+
+.bottomvalign, .bottom {vertical-align: bottom}
+*/
+/* Special site styles */
+
+@charset "utf-8";
+body { margin:0; padding:0; width:100%; color:#5f5f5f; font:normal 12px/1.8em Georgia, "Times New Roman", Times, serif;}
+html, .main { padding:0; margin:0; background-color:#fff;}
+.clr { clear:both; padding:0; margin:0; width:100%; font-size:0px; line-height:0px;}
+h1 { margin:0; padding:14px 0; color:#525657; font:normal 36px/1.2em Georgia, "Times New Roman", Times, serif;}
+h1 a, h1 a:hover { color:#525657; text-decoration:none;}
+h1 span { color:#89bc40;}
+h1 small { font:normal 14px/1.2em Georgia, "Times New Roman", Times, serif;}
+h2 { font:normal 24px Georgia, "Times New Roman", Times, serif; color:#4b4b4b; padding:8px 0; margin:8px 0;}
+h2 span { color:#8cbf43;}
+p { margin:8px 0; padding:0 0 8px 0; font:normal 12px/1.8em Georgia, "Times New Roman", Times, serif;}
+a { color:#8cbf43; text-decoration:underline;}
+
+.header, .content, .menu_nav, .fbg, .footer, form, ol, ol li, ul, .content .mainbar, .content .sidebar { margin:0; padding:0;}
+.header_resize, .content_resize, .fbg_resize, .footer_resize { margin:0 auto; padding:0 40px; width:890px;}
+
+/* header */
+.header { background:url(img/header_bg.jpg) repeat-x center bottom;}
+.header_resize { height:383px;}
+.header .authFrom { float:right; }
+.header .logo { padding:0; float:left; width:auto;}
+.header .htext { padding-top:32px; float:right; width:496px;}
+.header .htext, .header .htext h2, .header .htext a { color:#fff;}
+.header .htext h2 { padding-bottom:0; margin-bottom:0; font-weight:bold;}
+.header .htext p { line-height:1.5em;}
+
+/* menu */
+.menu_nav { padding:0; float:left; width:auto;}
+.menu_nav ul { list-style:none; padding-top:14px;}
+.menu_nav ul li { margin:0 0 0 4px; float:left; background:url(img/menu_bg.gif) no-repeat right center;}
+.menu_nav ul li a { display:block; margin:0; padding:16px 24px; color:#fff; text-decoration:none; font-size:14px;}
+.menu_nav ul li.active a, .menu_nav ul li a:hover { text-decoration:underline; color:#82b638;}
+
+/* content */
+.content_resize { padding:16px 0 24px 40px; width:930px; background-color:#fff;}
+.content .mainbar { float:left; width:630px;}
+.content .mainbar img { margin-bottom:24px; padding:4px; border:1px solid #b7b7b7; background-color:#fff;}
+.content .mainbar img.fl { float:left; margin-right:12px;}
+.content .mainbar .article, .content .sidebar .gadget { margin:0; padding:0 0 16px 0;}
+.content .sidebar { float:right; width:276px;}
+
+ul.sb_menu, ul.ex_menu { margin:0; padding:0; list-style:none; color:#959595;}
+ul.sb_menu li { padding:4px 0; border-bottom:1px solid #e3e3e3; width:220px;}
+ul.ex_menu li { padding:4px 0 8px;}
+ul.sb_menu li, ul.ex_menu li { margin:0; padding-left:16px; background:url(img/li.gif) no-repeat left 10px;}
+ul.sb_menu li a, ul.ex_menu li a { color:#5f5f5f; text-decoration:none; margin-left:-16px; padding-left:16px;}
+ul.sb_menu li a:hover, ul.ex_menu li a:hover { color:#8cbf43;}
+ul.sb_menu li a:hover { text-decoration:underline;}
+ul.ex_menu li a:hover { text-decoration:none;}
+
+div.sb_menu_second { margin:0 0 0 10px; padding:0; list-style:none; color:#959595;}
+div.sb_menu_second li { padding:4px 0; width:220px;}
+div.sb_menu_second li { margin:0; padding-left:16px;}
+div.sb_menu_second li a { color:#5f5f5f; text-decoration:none; margin-left:-16px; padding-left:16px;}
+div.sb_menu_second li a:hover { color:#8cbf43; text-decoration:underline;}
+
+/* subpages */
+.content .mainbar .comment { margin:0; padding:16px 0 0 0;}
+.content .mainbar .comment img.userpic { border:1px solid #dedede; margin:10px 16px 0 0; padding:0; float:left;}
+
+/* fbg */
+.fbg_resize { padding:24px 40px;}
+.fbg img { padding:4px; background-color:#fff; border:1px solid #d6d6d6;}
+.fbg .col { margin:0; float:left;}
+.fbg .c1 { padding:0 16px 0 0; width:240px;}
+.fbg .c2 { padding:0 16px; width:296px;}
+.fbg .c3 { padding:0 0 0 16px; width:290px;}
+.fbg .c1 img { margin:4px;}
+.fbg .c3 img { margin:8px 16px 4px 0; float:left;}
+
+/* footer */
+.footer { padding:28px 0 20px; background:url(img/footer_bg.gif) repeat-x top;}
+.footer p.lf { margin:0; padding:4px 0; float:right; width:auto; line-height:1.5em; color:#fff;}
+ul.fmenu { margin:0; padding:2px 0; list-style:none; float:left; width:auto;}
+ul.fmenu li { margin:0; padding:0 4px; float:left;}
+ul.fmenu li a { color:#fff; text-decoration:none; padding:2px 6px;}
+ul.fmenu li a:hover, ul.fmenu li.active a { text-decoration:underline;}
+
+/* form */
+ol { list-style:none;}
+ol li { display:block; clear:both;}
+ol li label { display:block; margin:0; padding:16px 0 0 0;}
+ol li input.text { width:480px; border:1px solid #c0c0c0; margin:2px 0; padding:5px 2px; height:16px; background:#fff;}
+ol li textarea { width:480px; border:1px solid #c0c0c0; margin:2px 0; padding:2px; background:#fff;}
+ol li .send { margin:16px 0 0 0;}
+
+
+
+#main-menu {
+	margin-top:35px;
+	list-style:none;
+	float:left;
+	padding:0;
+}
+
+#main-menu>li {
+	float:left;
+	margin-right:25px;
+	padding:5px 12px;
+	font-size:14px;
+	font-style:italic;
+	position:relative;
+	z-index:5;
+	border-radius:4px 4px 4px 4px;
+	-moz-border-radius:4px 4px 4px 4px;
+	-webkit-border-radius:4px 4px 4px 4px;
+	behavior: url(PIE.htc);
+}
+
+#main-menu>li:hover {
+	background:url(img/bg_transparent.png);
+}
+
+#main-menu>li>a {
+	color:#ffffff;
+	outline:none;
+}
+
+#main-menu>li:hover .dropdown {
+	display:block;
+}
+
+.dropdown {
+	position:absolute;
+	top:30px;
+	left:0px;
+	display:none;
+	padding:10px 0 0 0;
+}
+
+.dropdown .arrow {
+	position:absolute;
+	top:-1px;
+	left:25%;
+	width:8px;
+	height:11px;
+	background:url(img/menu_arrow.png) no-repeat;
+}
+
+.dropdown ul {
+	background:url(img/bg_transparent_menu.png);
+	list-style:none;
+	padding:5px 10px;
+	font-size:14px;
+	width:170px;
+	margin:0;
+	
+	border-radius:4px 4px 4px 4px;
+	-moz-border-radius:4px 4px 4px 4px;
+	-webkit-border-radius:4px 4px 4px 4px;
+	
+	box-shadow:0px 2px 5px RGBA(0,0,0,0.4);
+	-moz-box-shadow:0px 2px 5px RGBA(0,0,0,0.4);
+	-webkit-box-shadow:0px 2px 5px RGBA(0,0,0,0.4);
+	
+	behavior: url(PIE.htc);
+}
+
+.dropdown a {
+	color:#82b638;
+}
+
+.dropdown a.grey {
+	color:#999999;
+}
+
+
+
+/* Admin Links (please don't edit it!) */
+
+.divEdit {
+margin: 0 0 15px 0;
+}
+
+.adminDivCreate {
+margin-bottom: 10px;
+}
+
+.adminEditDelText {
+margin: 0;
+padding: 0;
+margin-bottom: 10px;
+}
+
+.spanEditDel {
+padding: 0px 10px 0px;
+}
+
+.spanEditDel img, #mainContent .spanEditDel img {
+vertical-align: middle;
+margin: 0px 3px 0px;
+border: 0;
+}
+
+.divMoveForm {
+margin: 15px 0 25px;
+}
+
+.divMoveForm form {
+padding: 0;
+margin: 0;
+}
+
+/* Forms (please don't edit it!) */
+
+.divFormSubmited { /* Заявка отправлена успешно */
+
+}
+
+.divForm { /* Вся форма */
+
+}
+
+.divForm .divFormButton { /* Submit button */
+margin-top: 20pt;
+}
+
+.divForm .divFormButton input {
+
+}
+
+.divForm .divFormStar { /* "* - обязательные поля" */
+margin: 10pt 0;
+}
+
+.divListErrors { /* Error list */
+margin: 10pt 0;
+}
+
+.divListErrorsHead {
+font-weight: bold;
+padding: 0;
+margin: 0;
+margin-bottom: 10pt;
+}
+
+.divListErrors .divError {
+color: #FF0000;
+margin: 3pt 0;
+padding-left: 10pt;
+}
+
+.divListErrors .desc {
+font-size: 90%;
+color: #333333;
+}
+
+.formField { /* Form element */
+margin-bottom: 6pt;
+}
+
+.formField select, .formField input, .formField textarea { /* Form elements */
+font-family: Verdana, Arial, Sans-Serif;
+font-size: 10pt;
+margin-top: 1pt;
+}
+
+.formField textarea {
+width: 98%;
+}
+
+.formField label {
+margin-left: 4pt;
+}
+
+.formField  textarea.mono {
+font-size: 11pt;
+font-family: "Courier New", Courier, monospace;
+}
+
+/* ModuleRights */
+div.divModuleRights {
+position:absolute; 
+top: 20px; 
+right: 150px; 
+border:1px solid black;
+width: 360px;
+padding: 2px;
+background-color: white;
+}
+
+div.divModuleRights div.title {
+width:100%;
+text-align:center;
+font-weight:bold;
+}
+
+div.divModuleRights div.title a{
+cursor: pointer;
+}
+
+div.divModuleRights div.module {
+padding: 4px;
+margin:5px 2px;
+border:1px solid black;
+}
+
+div.module div.role {
+clear: both;
+padding: 3px 0 3px 0;
+}
+
+/* Paging */
+
+.disabledArrow {color: #AAA}
+
+/* Search */
+
+.searchResultsHead {
+margin-top: 8pt;
+font-size: 12pt;
+}
+
+.searchResultsCount {
+margin: 10pt 0;
+}
+
+.searchPages {
+
+}
+
+/* Users */
+
+.userTable td, .userTable th{
+padding: 3px 5px;
+}
+
+.userTable th {
+font-size: 10pt;
+}
+
+/* News */
+
+.divNewsList, .divNewsMainList {
+
+}
+
+.divNewsListItem, .divNewsMainListItem {
+padding: 0px 0px 15px 0px;
+}
+
+.divNewsListTitle, .divNewsMainListTitle {
+font-weight: bold;
+text-align: left; 
+}
+
+.divNewsListDate, .divNewsMainListDate, .divNewsDate {
+color: #848484; 
+font-size: 8pt;
+}
+
+.divNewsListPreview, .divNewsMainListPreview {
+text-align: justify;
+}
+
+.divNewsPages {
+
+}
+
+.divNews {
+
+}
+
+.divNewsTitle {
+font-weight: bold;
+font-size: 12pt;
+}
+
+.divNewsText {
+
+}
+.divNewsBack {
+	text-align: right;
+}
+
+/* Contacts */
+
+.divContactsList, .divContactsMainList {
+
+}
+
+.divContactsListItem, .divContactsMainListItem {
+padding: 0px 0px 15px 0px;
+}
+
+.divContactsListTitle, .divContactsMainListTitle {
+font-weight: bold;
+text-align: left; 
+}
+
+.divContactsListDate, .divContactsMainListDate, .divContactsDate {
+color: #444444; 
+font-size: 10pt;
+}
+
+.divContactsListPreview, .divContactsMainListPreview {
+text-align: justify;
+}
+
+.divContactsPages {
+
+}
+
+.divContacts {
+width: 100%;
+}
+
+.tableContacts {
+border-top: 1px solid #285B86;
+border-right: 1px solid #285B86;
+}
+
+.tableContacts td, .tableContacts th {
+border-left: 1px solid #285B86;
+border-bottom: 1px solid #285B86;
+text-align: left;
+padding: 3px 5px;
+}
+
+.divContactsBack {
+text-align: right;
+}
+
+/* Award */
+
+.divAwardList {
+
+}
+
+.tdAwardListItem {
+	padding: 0px 0px 15px 0px;
+}
+
+.divAwardListTitle {
+	font-weight: bold;
+	text-align: left;
+}
+
+.divAwardListDate, .divAwardDate {
+	color: #848484; 
+	font-size: 9pt;
+}
+
+.divAwardListState, .divAwardListCity {
+	text-align: left;
+}
+
+.divAwardListImage {
+	float: left;
+	margin: 5px 10px;
+}
+
+.divAwardPages {
+
+}
+
+.divAward {
+
+}
+
+.divAwardTitle {
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+.divAwardText {
+	text-align: justify;
+}
+
+.divAwardRegion {
+	margin: 10px 5px;
+}
+
+.divAwardBack {
+	text-align: right;
+}
+
+/* Team */
+
+.divTeamList {
+
+}
+
+.tdTeamListItem {
+	padding: 0px 0px 15px 0px;
+}
+
+.divTeamListTitle {
+	font-weight: bold;
+	text-align: left;
+}
+
+.divTeamListDate, .divTeamDate {
+	color: #848484; 
+	font-size: 8pt;
+}
+
+.divTeamListImage {
+	margin-right: 7px;
+	float: right;
+}
+
+.divTeam {
+
+}
+
+.divTeamTitle {
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+.divTeamText {
+	text-align: justify;
+}
+
+.divTeamListDesc {
+	margin: 10px 5px;
+	text-align: justify;
+}
+
+.divTeamBack {
+	text-align: right;
+}
+
+/* School */
+
+.divSchoolList {
+
+}
+
+.tdSchoolListItem {
+	padding: 0px 0px 15px 0px;
+}
+
+.divSchoolListTitle {
+	font-weight: bold;
+	text-align: left;
+}
+
+.divSchoolListDate, .divSchoolDate {
+	color: #848484; 
+	font-size: 8pt;
+}
+
+.divSchoolListImage {
+	margin-right: 7px;
+	float: right;
+}
+
+.divSchool {
+
+}
+
+.divSchoolTitle {
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+.divSchoolText {
+	text-align: justify;
+}
+
+.divSchoolListDesc {
+	margin: 10px 5px;
+	text-align: justify;
+}
+
+.divSchoolBack {
+	text-align: right;
+}
+
+.divSchoolRegion {
+	margin: 10px 5px;
+}
+
+/* Classes */
+
+.divClasses {
+	margin: 5px 10px; 
+}
+
+.divClassesDesc {
+	margin-bottom: 10px;
+}
+
+.divClassesFrame {
+		
+}

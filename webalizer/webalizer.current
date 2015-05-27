@@ -1,0 +1,224 @@
+# Webalizer V2.20-01 Incremental Data - 05/11/2015 14:13:16
+2015 5 11 14 13 16
+67 62 3 41 4 4 1394494 30 5 0
+1 6 61 4 11
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+14 14 549384 1 1 1
+0 0 0 0 0 0
+23 22 630802 1 3 1
+0 0 0 0 0 0
+4 3 26515 1 3 1
+20 19 169024 1 19 1
+0 0 0 0 0 0
+6 4 18769 1 4 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+6 4 18769 4
+0 0 0 0
+14 13 116058 13
+6 6 52966 6
+0 0 0 0
+37 36 1180186 4
+4 3 26515 3
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0
+0
+0
+62
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+5
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/school/
+0 1 0 8817 0 0
+/
+0 7 0 41831 4 1
+/events/r11_id/10/
+0 1 0 8458 0 0
+/img/bg_transparent.png
+0 1 0 922 0 0
+/css.css
+0 2 0 25062 0 0
+/jscore/jquery-ui.js
+0 2 0 180690 0 0
+/js/cuf_run.js
+0 2 0 118 0 0
+/js/cufon-yui.js
+0 2 0 36514 0 0
+/img/li.gif
+0 1 0 51 0 0
+/summer-classes/
+0 2 0 16963 0 0
+/img/bg_transparent_menu.png
+0 1 0 922 0 0
+/jscore/jquery-1.11.1.min.js
+0 2 0 191572 0 0
+/stanford/
+0 1 0 8617 0 0
+/our-teams/r32_id/1/
+0 1 0 8449 0 0
+/img/pix6.jpg
+0 2 0 3334 0 0
+/img/pix5.jpg
+0 2 0 5354 0 0
+/img/pix4.jpg
+0 2 0 4438 0 0
+/support/
+0 1 0 8207 0 0
+/img/pix3.jpg
+0 2 0 3168 0 0
+/harvard/
+0 1 0 8759 0 0
+/img/footer_bg.gif
+0 1 0 631 0 0
+/team-member-reg/
+0 1 0 10615 0 0
+/our-teams/
+0 1 0 8487 0 0
+/img/pix2.jpg
+0 2 0 4012 0 0
+/search/
+0 1 0 8393 0 0
+/img/pix1.jpg
+0 2 0 3320 0 0
+/news/
+0 1 0 8637 0 0
+/js/georgia.js
+0 2 0 620184 0 0
+/img/white.jpg
+0 2 0 4270 0 0
+/your-prizes
+0 1 0 8651 0 1
+/summer-classes
+0 1 0 8481 0 0
+/img/menu_arrow.png
+0 1 0 1069 0 0
+/moems/
+0 1 0 8701 0 0
+/contacts/
+0 1 0 9984 0 0
+/map/
+0 1 0 8837 0 0
+/img/header_bg.jpg
+0 1 0 59673 0 0
+/events/
+0 1 0 8497 0 0
+/about/
+0 1 0 8211 1 0
+/princeton/
+0 1 0 8630 0 0
+/your-prizes/
+0 2 0 17304 0 0
+/official-reg/
+0 1 0 10574 0 0
+# End Of Table - urls
+# -sites- (monthly)
+herndon-44.lastpass.com
+0 6 4 18769 1 1431353595
+/
+172.20.240.125
+0 37 36 1180186 2 1430941382
+/your-prizes/
+ec2-204-236-226-210.compute-1.amazonaws.com
+0 24 22 195539 2 1431190940
+/your-prizes/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+herndon-44.lastpass.com
+0 6 4 18769 1 1431353595
+/
+# End Of Table - sites (daily)
+# -referrers- 
+- (Direct Request)
+0 32
+http://math.paygnet.com/summer-classes/
+1 1
+http://math.paygnet.com/
+1 28
+http://math.paygnet.com/css.css
+1 6
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.9) Gecko/20100315 Firefox/3.5.9 (.NET CLR 3.5.30729)
+0 4
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+0 37
+Lynx/2.8.8pre.4 libwww-FM/2.14 SSL-MM/1.4.1 GNUTLS/2.12.23
+0 2
+ia_archiver
+0 24
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

@@ -1,0 +1,895 @@
+[26-Aug-2014 14:35:10 Europe/Moscow] PHP Fatal error:  Maximum execution time of 90 seconds exceeded in H:\htdocs\phpcms\bin\cache.php on line 73
+[26-Aug-2014 14:35:10 Europe/Moscow] PHP Stack trace:
+[26-Aug-2014 14:35:10 Europe/Moscow] PHP   1. {main}() H:\htdocs\math\index.php:0
+[26-Aug-2014 14:35:10 Europe/Moscow] PHP   2. MainClass->Run() H:\htdocs\math\index.php:55
+[26-Aug-2014 14:35:10 Europe/Moscow] PHP   3. XSLClass->GetXSL() H:\htdocs\phpcms\bin\main.php:109
+[26-Aug-2014 14:35:10 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() H:\htdocs\phpcms\bin\xsl.php:29
+[11-Sep-2014 17:42:01] PHP Fatal error:  Call to undefined method PDO::inTransaction() in /hsphere/local/home/a876010/math.paygnet.com/bin/db.php on line 124
+[28-Oct-2014 05:13:38] PHP Fatal error:  Call to undefined method PDO::inTransaction() in /hsphere/local/home/a876010/math.paygnet.com/bin/db.php on line 124
+[26-May-2015 23:20:31 Europe/Moscow] Error: 2015-05-26, Tue 23:20:31 QueryClass: Ошибка во входных парамерах. Проверьте prefix в файле conf/global.conf.php и работает ли файл .htaccess
+[26-May-2015 23:20:56 Europe/Moscow] Error: 2015-05-26, Tue 23:20:56 QueryClass: Ошибка во входных парамерах. Проверьте prefix в файле conf/global.conf.php и работает ли файл .htaccess
+[26-May-2015 23:20:59 Europe/Moscow] Error: 2015-05-26, Tue 23:20:59 QueryClass: Ошибка во входных парамерах. Проверьте prefix в файле conf/global.conf.php и работает ли файл .htaccess
+[26-May-2015 23:21:23 Europe/Moscow] Error: 2015-05-26, Tue 23:21:23 QueryClass: Ошибка во входных парамерах. Проверьте prefix в файле conf/global.conf.php и работает ли файл .htaccess
+[26-May-2015 23:40:49 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:49 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:49 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:49 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:49 Europe/Moscow] PHP   3. XMLClass->__construct() C:\wamp\www\paygnet_org\bin\main.php:87
+[26-May-2015 23:40:49 Europe/Moscow] PHP   4. XMLClass->_SetXML() C:\wamp\www\paygnet_org\bin\xml.php:45
+[26-May-2015 23:40:49 Europe/Moscow] PHP   5. XMLClass->GetSectionCurrent() C:\wamp\www\paygnet_org\bin\xml.php:100
+[26-May-2015 23:40:49 Europe/Moscow] PHP   6. AdvDocReadClass->CreateXML() C:\wamp\www\paygnet_org\bin\xml.php:509
+[26-May-2015 23:40:49 Europe/Moscow] PHP   7. DTClass->ProcessQueryResults() C:\wamp\www\paygnet_org\bin\read\advdoc.php:89
+[26-May-2015 23:40:49 Europe/Moscow] PHP   8. DTClass->_CreateDocumentAttributes() C:\wamp\www\paygnet_org\bin\dt.php:545
+[26-May-2015 23:40:49 Europe/Moscow] PHP   9. URLReplaceParam() C:\wamp\www\paygnet_org\bin\dt.php:663
+[26-May-2015 23:40:49 Europe/Moscow] PHP  10. preg_replace_callback() C:\wamp\www\paygnet_org\bin\auxil.php:110
+[26-May-2015 23:40:49 Europe/Moscow] PHP  11. errhandler() C:\wamp\www\paygnet_org\bin\auxil.php:110
+[26-May-2015 23:40:49 Europe/Moscow] PHP  12. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:49 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:49 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:49 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:49 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:49 Europe/Moscow] PHP   3. XMLClass->__construct() C:\wamp\www\paygnet_org\bin\main.php:87
+[26-May-2015 23:40:49 Europe/Moscow] PHP   4. XMLClass->_SetXML() C:\wamp\www\paygnet_org\bin\xml.php:45
+[26-May-2015 23:40:49 Europe/Moscow] PHP   5. XMLClass->GetSectionCurrent() C:\wamp\www\paygnet_org\bin\xml.php:100
+[26-May-2015 23:40:49 Europe/Moscow] PHP   6. AdvDocReadClass->CreateXML() C:\wamp\www\paygnet_org\bin\xml.php:509
+[26-May-2015 23:40:49 Europe/Moscow] PHP   7. DTClass->ProcessQueryResults() C:\wamp\www\paygnet_org\bin\read\advdoc.php:89
+[26-May-2015 23:40:49 Europe/Moscow] PHP   8. DTClass->_CreateDocumentAttributes() C:\wamp\www\paygnet_org\bin\dt.php:545
+[26-May-2015 23:40:49 Europe/Moscow] PHP   9. URLReplaceParam() C:\wamp\www\paygnet_org\bin\dt.php:663
+[26-May-2015 23:40:49 Europe/Moscow] PHP  10. preg_replace_callback() C:\wamp\www\paygnet_org\bin\auxil.php:110
+[26-May-2015 23:40:49 Europe/Moscow] PHP  11. errhandler() C:\wamp\www\paygnet_org\bin\auxil.php:110
+[26-May-2015 23:40:49 Europe/Moscow] PHP  12. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:49 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:49 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:49 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:49 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:49 Europe/Moscow] PHP   3. XMLClass->__construct() C:\wamp\www\paygnet_org\bin\main.php:87
+[26-May-2015 23:40:49 Europe/Moscow] PHP   4. XMLClass->_SetXML() C:\wamp\www\paygnet_org\bin\xml.php:45
+[26-May-2015 23:40:49 Europe/Moscow] PHP   5. XMLClass->GetSectionCurrent() C:\wamp\www\paygnet_org\bin\xml.php:100
+[26-May-2015 23:40:49 Europe/Moscow] PHP   6. AdvDocReadClass->CreateXML() C:\wamp\www\paygnet_org\bin\xml.php:509
+[26-May-2015 23:40:49 Europe/Moscow] PHP   7. DTClass->ProcessQueryResults() C:\wamp\www\paygnet_org\bin\read\advdoc.php:89
+[26-May-2015 23:40:49 Europe/Moscow] PHP   8. DTClass->_CreateDocumentAttributes() C:\wamp\www\paygnet_org\bin\dt.php:545
+[26-May-2015 23:40:49 Europe/Moscow] PHP   9. URLReplaceParam() C:\wamp\www\paygnet_org\bin\dt.php:663
+[26-May-2015 23:40:49 Europe/Moscow] PHP  10. preg_replace_callback() C:\wamp\www\paygnet_org\bin\auxil.php:110
+[26-May-2015 23:40:49 Europe/Moscow] PHP  11. errhandler() C:\wamp\www\paygnet_org\bin\auxil.php:110
+[26-May-2015 23:40:49 Europe/Moscow] PHP  12. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:49 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:49 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:49 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:49 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:49 Europe/Moscow] PHP   3. XMLClass->__construct() C:\wamp\www\paygnet_org\bin\main.php:87
+[26-May-2015 23:40:49 Europe/Moscow] PHP   4. XMLClass->_SetXML() C:\wamp\www\paygnet_org\bin\xml.php:45
+[26-May-2015 23:40:49 Europe/Moscow] PHP   5. XMLClass->GetSectionCurrent() C:\wamp\www\paygnet_org\bin\xml.php:100
+[26-May-2015 23:40:49 Europe/Moscow] PHP   6. AdvDocReadClass->CreateXML() C:\wamp\www\paygnet_org\bin\xml.php:509
+[26-May-2015 23:40:49 Europe/Moscow] PHP   7. DTClass->ProcessQueryResults() C:\wamp\www\paygnet_org\bin\read\advdoc.php:89
+[26-May-2015 23:40:49 Europe/Moscow] PHP   8. DTClass->_CreateDocumentAttributes() C:\wamp\www\paygnet_org\bin\dt.php:545
+[26-May-2015 23:40:49 Europe/Moscow] PHP   9. URLReplaceParam() C:\wamp\www\paygnet_org\bin\dt.php:663
+[26-May-2015 23:40:49 Europe/Moscow] PHP  10. preg_replace_callback() C:\wamp\www\paygnet_org\bin\auxil.php:110
+[26-May-2015 23:40:49 Europe/Moscow] PHP  11. errhandler() C:\wamp\www\paygnet_org\bin\auxil.php:110
+[26-May-2015 23:40:49 Europe/Moscow] PHP  12. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:49 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:49 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:49 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:49 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:49 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:49 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:49 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:49 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:182
+[26-May-2015 23:40:49 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:182
+[26-May-2015 23:40:49 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:49 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:49 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:49 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:49 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:49 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:49 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:49 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:49 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:186
+[26-May-2015 23:40:49 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:186
+[26-May-2015 23:40:49 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:199
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:199
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:200
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:200
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:215
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:215
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:216
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:216
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:176
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:176
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:178
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:178
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:179
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:179
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:186
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:186
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:215
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:215
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:216
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:216
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:176
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:176
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:178
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:178
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:179
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:179
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:186
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:186
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:215
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:215
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:216
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:216
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:176
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:176
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:178
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:178
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:179
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:179
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:186
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:186
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:215
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:215
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:216
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:216
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:176
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:176
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:178
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:178
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:179
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:179
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:186
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:186
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:215
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:215
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:216
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:216
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:176
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:176
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:178
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:178
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:179
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:179
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:186
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:186
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:215
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:215
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:216
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:216
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:176
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:176
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:178
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:178
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:179
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:179
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:186
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:186
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:215
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:215
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:216
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:216
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:176
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:176
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:178
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:178
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:179
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:179
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:186
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:186
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:215
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:215
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:216
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:216
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:176
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:176
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:178
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:178
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:179
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:179
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:186
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:186
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:215
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:215
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:216
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:216
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:176
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:176
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:178
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:178
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:179
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:179
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:186
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:186
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:215
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:215
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:216
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:216
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:176
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:176
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:178
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:178
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:179
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:179
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:186
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:186
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:215
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:215
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:216
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:216
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:176
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:176
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:178
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:178
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:179
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:179
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:186
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:186
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:215
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:215
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:216
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:216
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:176
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:176
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:178
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:178
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:179
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:179
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:186
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:186
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:215
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:215
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. XSLClass->GetXSL() C:\wamp\www\paygnet_org\bin\main.php:109
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. CacheClass->GetXSLFile() C:\wamp\www\paygnet_org\bin\xsl.php:29
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. CacheClass->_CutXSLT() C:\wamp\www\paygnet_org\bin\cache.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. preg_replace_callback() C:\wamp\www\paygnet_org\bin\cache.php:216
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. errhandler() C:\wamp\www\paygnet_org\bin\cache.php:216
+[26-May-2015 23:40:50 Europe/Moscow] PHP   8. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. ResponseClass->DoResponse() C:\wamp\www\paygnet_org\bin\main.php:113
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. XSL_Transformation() C:\wamp\www\paygnet_org\bin\response.php:125
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. DOMDocument->loadXML() C:\wamp\www\paygnet_org\bin\auxil.php:185
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. errhandler() C:\wamp\www\paygnet_org\bin\auxil.php:185
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. ResponseClass->DoResponse() C:\wamp\www\paygnet_org\bin\main.php:113
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. XSL_Transformation() C:\wamp\www\paygnet_org\bin\response.php:125
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. DOMDocument->loadXML() C:\wamp\www\paygnet_org\bin\auxil.php:185
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. errhandler() C:\wamp\www\paygnet_org\bin\auxil.php:185
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:50 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:50 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:50 Europe/Moscow] PHP   3. ResponseClass->DoResponse() C:\wamp\www\paygnet_org\bin\main.php:113
+[26-May-2015 23:40:50 Europe/Moscow] PHP   4. XSL_Transformation() C:\wamp\www\paygnet_org\bin\response.php:125
+[26-May-2015 23:40:50 Europe/Moscow] PHP   5. XSLTProcessor->importStylesheet() C:\wamp\www\paygnet_org\bin\auxil.php:188
+[26-May-2015 23:40:50 Europe/Moscow] PHP   6. errhandler() C:\wamp\www\paygnet_org\bin\auxil.php:188
+[26-May-2015 23:40:50 Europe/Moscow] PHP   7. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:50 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:51 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:51 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:51 Europe/Moscow] PHP   3. ResponseClass->DoResponse() C:\wamp\www\paygnet_org\bin\main.php:113
+[26-May-2015 23:40:51 Europe/Moscow] PHP   4. XSL_Transformation() C:\wamp\www\paygnet_org\bin\response.php:125
+[26-May-2015 23:40:51 Europe/Moscow] PHP   5. XSLTProcessor->importStylesheet() C:\wamp\www\paygnet_org\bin\auxil.php:188
+[26-May-2015 23:40:51 Europe/Moscow] PHP   6. errhandler() C:\wamp\www\paygnet_org\bin\auxil.php:188
+[26-May-2015 23:40:51 Europe/Moscow] PHP   7. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[26-May-2015 23:40:51 Europe/Moscow] PHP Warning:  preg_replace_callback(): Requires argument 2, '', to be a valid callback in C:\wamp\www\paygnet_org\bin\errhandler.php on line 70
+[26-May-2015 23:40:51 Europe/Moscow] PHP Stack trace:
+[26-May-2015 23:40:51 Europe/Moscow] PHP   1. {main}() C:\wamp\www\paygnet_org\index.php:0
+[26-May-2015 23:40:51 Europe/Moscow] PHP   2. MainClass->Run() C:\wamp\www\paygnet_org\index.php:54
+[26-May-2015 23:40:51 Europe/Moscow] PHP   3. ResponseClass->DoResponse() C:\wamp\www\paygnet_org\bin\main.php:113
+[26-May-2015 23:40:51 Europe/Moscow] PHP   4. XSL_Transformation() C:\wamp\www\paygnet_org\bin\response.php:125
+[26-May-2015 23:40:51 Europe/Moscow] PHP   5. XSLTProcessor->transformToXml() C:\wamp\www\paygnet_org\bin\auxil.php:190
+[26-May-2015 23:40:51 Europe/Moscow] PHP   6. errhandler() C:\wamp\www\paygnet_org\bin\auxil.php:190
+[26-May-2015 23:40:51 Europe/Moscow] PHP   7. preg_replace_callback() C:\wamp\www\paygnet_org\bin\errhandler.php:70
+[27-May-2015 00:01:22 Europe/Moscow] Error: 2015-05-27, Wed 00:01:22 QueryClass: Ошибка во входных парамерах. Проверьте prefix в файле conf/global.conf.php и работает ли файл .htaccess
+[27-May-2015 00:01:46 Europe/Moscow] Error: 2015-05-27, Wed 00:01:46 QueryClass: Ошибка во входных парамерах. Проверьте prefix в файле conf/global.conf.php и работает ли файл .htaccess
